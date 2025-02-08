@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    color: #333;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    background: #ff6f61;
+    color: #fff;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+  /* Main Section */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+  }
+  
+  #idea {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+  button {
+    padding: 12px 30
+  }
+
+/* Footer Section */
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+    height: 50px; /* Added height for proper centering */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
